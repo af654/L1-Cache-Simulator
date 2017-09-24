@@ -8,4 +8,5 @@ number of sets = 32 / (2*4) = 4
 
 In my c-sim.c, I have code written for both both write_through and write_back policies for both LRU and FIFO algorithms. I ran it against the test cases.
 
-The advantage here is spacial locality, many addresses which are stored are accessed again because the index bits are less significant than the tag bits. You want less cache misses. The structure with the tag bit as the most significant position and then you have index bit and block bits gives a better hit rate.
+The advantage here is spacial locality, many addresses which are stored are accessed again because the index bits are less significant than the tag bits. You want less cache misses. 
+The structure with the tag bit as the most significant position and then you have index bit and block bits gives a better hit rate.
